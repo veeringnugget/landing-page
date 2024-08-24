@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    margin: 0px;
 }
 
 ul {
@@ -87,8 +88,9 @@ button {
     gap: 50px;
 }
 
-p {
-    margin: 10px;
+p, h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img {
@@ -178,6 +180,11 @@ img {
   color: white;
 }
 
-h5 {
-    margin: 10px;
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 75px;
 }
