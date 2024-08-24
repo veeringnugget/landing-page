@@ -110,4 +110,27 @@ img {
     text-align: center;
     font-size: 14px;
     width: 130px;
+    margin-bottom: 50px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quote-wording {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 800px;
+}
+
+#name {
+    display: flex;
+    width: 800px;
+    justify-content: flex-end;
 }
