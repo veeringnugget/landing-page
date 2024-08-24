@@ -87,6 +87,10 @@ button {
     gap: 50px;
 }
 
+p {
+    margin: 10px;
+}
+
 img {
     width: 140px;
     height: 140px;
@@ -133,4 +137,47 @@ img {
     display: flex;
     width: 800px;
     justify-content: flex-end;
+}
+
+.bottom {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    background-color: #3882F6;
+    display: flex;
+    width: 1000px;
+    height: 120px;
+    margin: 30px;
+    border: none;
+    border-radius: 7px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left-inner {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: white;
+    margin: 2px;
+}
+
+.sign-up-lower {
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+
+#low {
+  background-color:  #3882F6;
+  border: 3px solid white;
+  color: white;
+}
+
+h5 {
+    margin: 10px;
 }
