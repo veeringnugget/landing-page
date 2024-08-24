@@ -1,5 +1,5 @@
 body {
-
+    font-family: "Roboto", sans-serif;
 }
 
 ul {
@@ -8,4 +8,5 @@ ul {
 
 .header {
     background-color: #1F2937;
+    color: white;
 }
